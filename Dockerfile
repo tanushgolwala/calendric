@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install -y \
 
 RUN mkdir /var/run/sshd /uploads && chmod 777 /uploads
 
-RUN echo 'root:password' | chpasswd
+RUN echo 'root:changethisbeforebuildhehe' | chpasswd
 
 RUN sed -i 's/^#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config
 

@@ -52,3 +52,5 @@ scp -P 2222 root@<localhost>:/root/uploads/<filename> ./<local filename>
 ```
 
 > **WARNING**: Change <'localhost'> to your IP address before running
+
+This repository is made and maintained by [Tansuh](https://github.com/tanushgolwala)
